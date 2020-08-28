@@ -1,3 +1,6 @@
+#import system functions
+import sys
+sys.path.append('/usr/local/lib/python3.8/site-packages/')
 #import basic HTTP handling processes
 import urllib
 from urllib.request import urlopen
@@ -48,6 +51,7 @@ for source in gamingPress:
         list_text.append(article_extract.text)
         list_source.apprend(article_extract.source_url)
 
+        print(count)
         count +=1 #progress the loop *via* count
 
     temp_df = pd.DataFrame({'Title': list_title, 'Text': list_text, 'Source': list_source})
