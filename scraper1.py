@@ -1,7 +1,7 @@
 #import system functions
 import sys
 import requests
-sys.path.append('/usr/local/lib/python3.8/site-packages/')
+#sys.path.append('/usr/local/lib/python3.8/site-packages/')
 #import basic HTTP handling processes
 #import urllib
 #from urllib.request import urlopen
